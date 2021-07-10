@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+body{
+  background-image: url(/assets/wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  display: flex;
+  justify-content: center;
+}
+.login__page{
+  background-color: transparent;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 730px;
+  height: 500px;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.login__page:hover{
+  box-shadow: 1px solid blue;
+}
+
+.login__form{
+  height: 300px;
+  text-align: center;
+}
+
+.login__form input{
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: transparent;
+  width: 70%;
+  border: 1;
+  margin: 0 0 15px;
+  padding: 1rem;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 30px;
+  text-align: center;
+}
+.login__form input invalid{
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: transparent;
+  width: 70%;
+  border: 1;
+  margin: 0 0 15px;
+  padding: 1rem;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 30px;
+  text-align: center;
+}
+.login__form button{
+  font-family: "Roboto", sans-serif;
+  text-transform: lowercase;
+  outline: 0;
+  background: transparent;
+  width: 90%;
+  padding: 15px;
+  color: #502aca;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 1rem;
+  border-radius: 30px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+/* buttons controls */
+
+.controls__buttons{
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  height: 100px;
+  width: 730px;
+  background-color: transparent;
+  border-radius: 20px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.controls__buttons button{
+  margin: 0.4rem;
+  height: 90px;
+  width: 90px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  /* border: 1; */
+}
+.controls__buttons button i{
+  font-size: 2rem;
+  color: rgb(169, 169, 182);
+}
+
+.red{
+  color: red !important;
+}
+.green{
+  color: white !important;
+}
+.orange{
+  color: orange !important;
+}

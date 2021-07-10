@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    background-image: url(/assets/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    overflow: hidden;
+  }
+.bottom__toolbar{
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    background-color: #E4EEF8;
+    height: 8vh;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+}
+
+.bottom__toolbar button{
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    margin: 0.4rem;
+    background-color: transparent;
+    border: none;
+}
+.bottom__toolbar .middle button img{
+    height: 50px;
+    width: 50px;
+}
+
+.bottom__toolbar .right{
+    margin-right: 2rem;
+}
+
+.bottom__toolbar .right button {
+    margin-top: 1em;
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+}
+
+.bottom__toolbar .right button img{
+    height: 25px;
+    width: 25px;
+}
+
+
+.up{
+    margin-bottom: 0.4em;
+}
+
+

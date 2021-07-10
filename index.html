@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/Microsoftlogo.css">
+    <link rel="stylesheet" href="css/login.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="login__page">
+        <div class="microsoft__logo">
+            <div class="logo">
+                <div class="symbol"></div>
+                <div class="logotype">
+                    <span class="s1">Microsoft</span>
+                    <span class="s2">Windows 11</span>
+                </div>
+            </div>
+        </div>
+        <div class="form__main">
+            <form class="login__form" name="loginform" onsubmit="return validateForm();">
+                <input id="password" name="usr" type="password" placeholder="Type your password" required />
+                <button id ="submit" type="submit" onSubmit="Validate();">Continue</button>
+            </form>
+        </div>
+        <div class="controls__buttons">
+            <button><i class="fa fa-power-off red" aria-hidden="true"></i>
+            </button>
+            <button><i class="fa fa-moon-o orange" aria-hidden="true"></i>
+            </button>
+            <button><i class="fa fa-fast-backward green" aria-hidden="true"></i>
+
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

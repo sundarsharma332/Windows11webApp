@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+/* microsoft__logo */
+
+.logo {
+  width: 640px;
+  height: 150px;
+  overflow: hidden;
+  padding-top: 20px;
+  position: relative;
+  margin: 50px auto;
+  perspective: 400px;
+  perspective-origin: -20% 50%; /* Sweet */
+}
+.symbol {
+  width: 62px;
+  height: 62px;
+  background: #f25222;
+  display: inline-block;
+  box-shadow: 68px 0 #80bb01, 0 68px #01a4ef, 68px 68px #ffba00;
+  transition: all 0.5s ease;
+}
+
+.logo:hover .symbol {
+  transform: rotateY(-50deg);
+  background: #00adef;
+  box-shadow: 68px 0 #00adef, 0 68px #00adef, 68px 68px #00adef;
+}
+.logotype {
+  width: 540px;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.logotype span {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font: 600 110px "Segoe UI", "Open Sans", arial, sans-serif;
+  color: #727272;
+  letter-spacing: -3px;
+  transition: all 0.5s ease;
+}
+
+.logo .s2 {
+  font-size: 95px;
+  line-height: 150px;
+  color: #00adef;
+  top: -120px;
+  opacity: 0;
+}
+
+.logo:hover .s1 {
+  top: 150px;
+  opacity: 0;
+}
+.logo:hover .s2 {
+  top: 0;
+  opacity: 1;
+}
